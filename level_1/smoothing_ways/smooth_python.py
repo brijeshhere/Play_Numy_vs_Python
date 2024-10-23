@@ -40,7 +40,7 @@ def smooth(image,kernel):
 
 
 def main():
-    image='Play_Numy_vs_Python/Begineers/smoothing_ways/image.jpg'
+    image='Play_Numy_vs_Python/level_1/image.jpg'
 
     # read image
     img=cv2.imread(image)
@@ -53,7 +53,7 @@ def main():
 
     cv2.imshow('out',out)
     cv2.waitKey(0)
-    # cv2.destoryAllWindows()
+    cv2.destroyAllWindows()
 
 if __name__=="__main__":
     main()
